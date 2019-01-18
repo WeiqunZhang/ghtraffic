@@ -14,7 +14,8 @@ def ghtraffic():
              {'org':'AMReX-Astro', 'repo':'Maestro'},
              {'org':'AMReX-Astro', 'repo':'Nyx'},
              {'org':'BoxLib-Codes', 'repo':'BoxLib'},
-             {'org':'ECP-WarpX', 'repo':'WarpX'}]
+             {'org':'ECP-WarpX', 'repo':'WarpX'},
+             {'org':'AMReX-FHD', 'repo':'FHDeX'}]
 
     for repo in repos:
         clone_records = {}
